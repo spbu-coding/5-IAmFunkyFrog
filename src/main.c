@@ -9,7 +9,6 @@ void other() {
 void input() {
 	long long int a;
     char buffer[5];
-    printf("%p\n", &other);
     memcpy(&a, buffer + 17, 8);
     printf("%x\n", a);
     fflush(stdout);
@@ -22,6 +21,8 @@ void input() {
 
 int main() {
     
+    printf("%p\n", &main);
+    printf("%p\n", &other);
     input();
     printf("Normal output\n");
 
