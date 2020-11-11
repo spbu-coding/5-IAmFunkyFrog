@@ -10,11 +10,11 @@ void input() {
 	long long int a;
     char buffer[5];
     printf("%p\n", &other);
-    memcpy(&a, buffer + 21, 8);
+    memcpy(&a, buffer + 17, 8);
     printf("%x\n", a);
     fflush(stdout);
     scanf("%s", buffer);
-    memcpy(&a, buffer + 21, 8);
+    memcpy(&a, buffer + 17, 8);
     printf("%x\n", a);
     puts(buffer);
     fflush(stdout);
