@@ -4,6 +4,8 @@
 void other() {
     printf("U broken program!!! Congratulations\n");
     fflush(stdout);
+
+    return;
 }
 
 void input() {
