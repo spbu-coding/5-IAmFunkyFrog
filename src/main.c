@@ -2,15 +2,14 @@
 #include <string.h>
 
 void other() {
-	printf("%p\n", &other);
     printf("U broken program!!! Congratulations\n");
     fflush(stdout);
 }
 
 void input() {
-	printf("%p\n", &input);
 	long long int a;
     char buffer[5];
+    printf("%p\n", &input - &other + 21);
     memcpy(&a, buffer + 21, 8);
     printf("%x\n", a);
     fflush(stdout);
@@ -23,7 +22,6 @@ void input() {
 
 int main() {
     
-    other();
     input();
     printf("Normal output\n");
 
