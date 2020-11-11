@@ -6,13 +6,13 @@ void other() {
 }
 
 void input() {
-	int a;
+	long long int a;
     char buffer[5];
-    memcpy(&a, buffer + 17, 4);
+    memcpy(&a, buffer + 21, 8);
     printf("%x\n", a);
     fflush(stdout);
     scanf("%s", buffer);
-    memcpy(&a, buffer + 17, 4);
+    memcpy(&a, buffer + 21, 8);
     printf("%x\n", a);
     puts(buffer);
     fflush(stdout);
