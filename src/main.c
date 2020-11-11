@@ -3,6 +3,7 @@
 
 void other() {
     printf("U broken program!!! Congratulations\n");
+    fflush(stdout);
 }
 
 void input() {
