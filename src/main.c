@@ -9,7 +9,7 @@ void other() {
 void input() {
 	long long int a;
     char buffer[5];
-    printf("%p\n", &input - &other + 21);
+    printf("%p\n", &other);
     memcpy(&a, buffer + 21, 8);
     printf("%x\n", a);
     fflush(stdout);
